@@ -19,7 +19,7 @@ android {
 }
 
 group = "com.renfrowtech"
-version = "0.1.2"
+version = "0.1.3"
 
 publishing {
     repositories {
@@ -104,7 +104,7 @@ buildscript {
 
 tasks.withType<org.jetbrains.dokka.gradle.DokkaTask>().configureEach {
     pluginConfiguration<org.jetbrains.dokka.versioning.VersioningPlugin, VersioningConfiguration> {
-        version = "$version"
+        version = "${project.version}"
         olderVersionsDir = rootDir.resolve("docs/archive")
     }
 
@@ -125,26 +125,9 @@ tasks.withType<org.jetbrains.dokka.gradle.DokkaTask>().configureEach {
                 remoteLineSuffix.set("#L")
             }
         }
-        named("androidMain") {
-            outputDirectory.set(projectDir.resolve("docs"))
-
-            moduleName.set("KMP-Log-Android")
-
-            sourceLink {
-                localDirectory.set(file("src/androidMain/kotlin"))
-                remoteUrl.set(
-                    URL(
-                        "https://github.com/renfrowtech/kmp-log/tree/main/" +
-                                "kmp-log/src/androidMain/kotlin"
-                    )
-                )
-                remoteLineSuffix.set("#L")
-            }
-        }
     }
 }
 
 dependencies {
     dokkaGfmPlugin("org.jetbrains.dokka:versioning-plugin:1.8.10")
-    //dokkaGfmPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.8.10")
 }

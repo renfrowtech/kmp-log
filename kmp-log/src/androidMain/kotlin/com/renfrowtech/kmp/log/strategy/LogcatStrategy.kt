@@ -50,7 +50,7 @@ class LogcatStrategy(
         if (level.severity <= minLogLevel.severity) {
 
             val dataWithSev = (data?.toMutableMap() ?: mutableMapOf()).apply {
-                put(KEY_SEVERITY, LogLevel.EMERGENCY.printName)
+                put(KEY_SEVERITY, level)
             }
 
             logSplitter.split(
