@@ -12,6 +12,10 @@
 
 Configurable Logging framework built for Kotlin Multiplatform
 
+# Documentation
+
+Full documentation of the Logging framework is available in the [documentation](docs/index.md)
+
 # Getting Started
 
 ## Multiplatform
