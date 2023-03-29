@@ -4,9 +4,8 @@
 # notice
 
 [common]\
-
-public
-abstract [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)[notice](notice.md)([String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-message, [String](https://developer.android.com/reference/kotlin/java/lang/String.html)tag)
+abstract fun [notice](notice.md)(
+message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?,
+tag: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null)
 
 Logs an notice message and optional tag

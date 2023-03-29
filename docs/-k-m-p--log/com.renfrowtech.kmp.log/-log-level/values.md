@@ -4,9 +4,8 @@
 # values
 
 [common]\
-
-public final [Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)
-&lt;[LogLevel](index.md)&gt;[values](values.md)()
+fun [values](values.md)(): [Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)
+&lt;[LogLevel](index.md)&gt;
 
 Returns an array containing the constants of this enum type, in the order they're declared.
 

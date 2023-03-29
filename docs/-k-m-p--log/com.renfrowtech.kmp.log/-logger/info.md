@@ -4,9 +4,8 @@
 # info
 
 [common]\
-
-public
-abstract [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)[info](info.md)([String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-message, [String](https://developer.android.com/reference/kotlin/java/lang/String.html)tag)
+abstract fun [info](info.md)(
+message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?,
+tag: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null)
 
 Logs an info message and optional tag

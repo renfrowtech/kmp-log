@@ -4,9 +4,8 @@
 # debug
 
 [common]\
-
-public
-abstract [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)[debug](debug.md)([String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-message, [String](https://developer.android.com/reference/kotlin/java/lang/String.html)tag)
+abstract fun [debug](debug.md)(
+message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?,
+tag: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null)
 
 Logs a debug message and optional tag

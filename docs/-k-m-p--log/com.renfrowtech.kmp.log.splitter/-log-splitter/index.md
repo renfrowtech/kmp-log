@@ -3,10 +3,10 @@
 
 # LogSplitter
 
-public interface [LogSplitter](index.md)
+interface [LogSplitter](index.md)
 
-Interface for splitting log lines at new lines, pretty printing JSON and at maxLogLineBytesDefault
-characters
+Interface for splitting log lines at new lines, pretty printing JSON and
+at [maxLogLineBytesDefault](max-log-line-bytes-default.md) characters
 
 #### Inheritors
 
@@ -19,5 +19,10 @@ characters
 
 | Name | Summary |
 |---|---|
-| [getMaxLogLineBytesDefault](get-max-log-line-bytes-default.md) | [common]<br>public abstract [Integer](https://developer.android.com/reference/kotlin/java/lang/Integer.html)[getMaxLogLineBytesDefault](get-max-log-line-bytes-default.md)()<br>The maximum number of characters in a log line |
-| [split](split.md) | [common]<br>public [List](https://developer.android.com/reference/kotlin/java/util/List.html)&lt;[String](https://developer.android.com/reference/kotlin/java/lang/String.html)&gt;[split](split.md)([String](https://developer.android.com/reference/kotlin/java/lang/String.html)message, [Integer](https://developer.android.com/reference/kotlin/java/lang/Integer.html)maxLogLineBytes, [Boolean](https://developer.android.com/reference/kotlin/java/lang/Boolean.html)splitNewLines)<br>Splits log message into multiple messages |
+| [split](split.md) | [common]<br>open fun [split](split.md)(message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), maxLogLineBytes: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) = maxLogLineBytesDefault, splitNewLines: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = true): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)&gt;<br>Splits log message into multiple messages |
+
+## Properties
+
+| Name | Summary |
+|---|---|
+| [maxLogLineBytesDefault](max-log-line-bytes-default.md) | [common]<br>abstract val [maxLogLineBytesDefault](max-log-line-bytes-default.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)<br>The maximum number of characters in a log line |

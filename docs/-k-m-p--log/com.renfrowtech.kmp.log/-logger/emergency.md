@@ -4,9 +4,8 @@
 # emergency
 
 [common]\
-
-public
-abstract [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)[emergency](emergency.md)([String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-message, [String](https://developer.android.com/reference/kotlin/java/lang/String.html)tag)
+abstract fun [emergency](emergency.md)(
+message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?,
+tag: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null)
 
 Logs an emergency error and optional tag

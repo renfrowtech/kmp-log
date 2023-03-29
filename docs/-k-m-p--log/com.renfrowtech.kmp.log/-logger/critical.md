@@ -4,9 +4,8 @@
 # critical
 
 [common]\
-
-public
-abstract [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)[critical](critical.md)([String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-message, [String](https://developer.android.com/reference/kotlin/java/lang/String.html)tag)
+abstract fun [critical](critical.md)(
+message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?,
+tag: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null)
 
 Logs a critical error and optional tag

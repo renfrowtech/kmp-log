@@ -5,6 +5,7 @@
 
 [common]\
 
-public final
-static [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)[addStrategies](add-strategies.md)([LogStrategy](../../../com.renfrowtech.kmp.log.strategy/-log-strategy/index.md)
-strategies)
+@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)
+
+fun [addStrategies](add-strategies.md)(vararg
+strategies: [LogStrategy](../../../com.renfrowtech.kmp.log.strategy/-log-strategy/index.md))

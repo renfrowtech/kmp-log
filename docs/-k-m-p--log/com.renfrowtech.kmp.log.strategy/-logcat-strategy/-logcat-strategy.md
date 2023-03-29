@@ -4,6 +4,4 @@
 # LogcatStrategy
 
 [android]\
-
-public [LogcatStrategy](index.md)[LogcatStrategy](-logcat-strategy.md)(LogLevelminLogLevel,
-LogSplitterlogSplitter)
+constructor(minLogLevel: LogLevel = LogLevel.INFO, logSplitter: LogSplitter = LogcatSplitter())

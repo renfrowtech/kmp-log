@@ -2,14 +2,14 @@ $dokka.format:gfm-v1
 $dokka.linkExtension:md
 $dokka.location:com.renfrowtech.kmp.log.splitter////PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/index.md
 $dokka.location:com.renfrowtech.kmp.log.splitter/LogSplitter///PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-log-splitter/index.md
-$dokka.location:com.renfrowtech.kmp.log.splitter/LogSplitter/getMaxLogLineBytesDefault/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-log-splitter/get-max-log-line-bytes-default.md
+$dokka.location:com.renfrowtech.kmp.log.splitter/LogSplitter/maxLogLineBytesDefault/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-log-splitter/max-log-line-bytes-default.md
 $dokka.location:com.renfrowtech.kmp.log.splitter/LogSplitter/split/#kotlin.String#kotlin.Int#kotlin.Boolean/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-log-splitter/split.md
 $dokka.location:com.renfrowtech.kmp.log.splitter/LogcatSplitter///PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-logcat-splitter/index.md
 $dokka.location:com.renfrowtech.kmp.log.splitter/LogcatSplitter/LogcatSplitter/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-logcat-splitter/-logcat-splitter.md
-$dokka.location:com.renfrowtech.kmp.log.splitter/LogcatSplitter/getMaxLogLineBytesDefault/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-logcat-splitter/get-max-log-line-bytes-default.md
+$dokka.location:com.renfrowtech.kmp.log.splitter/LogcatSplitter/maxLogLineBytesDefault/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-logcat-splitter/max-log-line-bytes-default.md
 $dokka.location:com.renfrowtech.kmp.log.splitter/PrintSplitter///PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-print-splitter/index.md
 $dokka.location:com.renfrowtech.kmp.log.splitter/PrintSplitter/PrintSplitter/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-print-splitter/-print-splitter.md
-$dokka.location:com.renfrowtech.kmp.log.splitter/PrintSplitter/getMaxLogLineBytesDefault/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-print-splitter/get-max-log-line-bytes-default.md
+$dokka.location:com.renfrowtech.kmp.log.splitter/PrintSplitter/maxLogLineBytesDefault/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.splitter/-print-splitter/max-log-line-bytes-default.md
 $dokka.location:com.renfrowtech.kmp.log.strategy////PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/index.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy///PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/index.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/alert/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/alert.md
@@ -17,9 +17,9 @@ $dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/critical/#kotlin.St
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/debug/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/debug.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/emergency/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/emergency.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/error/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/error.md
-$dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/getLogSplitter/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/get-log-splitter.md
-$dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/getMinLogLevel/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/get-min-log-level.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/info/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/info.md
+$dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/logSplitter/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/log-splitter.md
+$dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/minLogLevel/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/min-log-level.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/notice/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/notice.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/trace/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/trace.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogStrategy/warning/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-log-strategy/warning.md
@@ -30,9 +30,9 @@ $dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/critical/#kotlin
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/debug/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-logcat-strategy/debug.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/emergency/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-logcat-strategy/emergency.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/error/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-logcat-strategy/error.md
-$dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/getLogSplitter/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-logcat-strategy/get-log-splitter.md
-$dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/getMinLogLevel/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-logcat-strategy/get-min-log-level.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/info/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-logcat-strategy/info.md
+$dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/logSplitter/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-logcat-strategy/log-splitter.md
+$dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/minLogLevel/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-logcat-strategy/min-log-level.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/notice/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-logcat-strategy/notice.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/trace/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-logcat-strategy/trace.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/LogcatStrategy/warning/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-logcat-strategy/warning.md
@@ -43,9 +43,9 @@ $dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/critical/#kotlin.
 $dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/debug/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-print-strategy/debug.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/emergency/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-print-strategy/emergency.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/error/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-print-strategy/error.md
-$dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/getLogSplitter/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-print-strategy/get-log-splitter.md
-$dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/getMinLogLevel/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-print-strategy/get-min-log-level.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/info/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-print-strategy/info.md
+$dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/logSplitter/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-print-strategy/log-splitter.md
+$dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/minLogLevel/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-print-strategy/min-log-level.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/notice/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-print-strategy/notice.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/trace/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-print-strategy/trace.md
 $dokka.location:com.renfrowtech.kmp.log.strategy/PrintStrategy/warning/#kotlin.String?#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log.strategy/-print-strategy/warning.md
@@ -60,8 +60,8 @@ $dokka.location:com.renfrowtech.kmp.log/LogLevel.NOTICE///PointingToDeclaration/
 $dokka.location:com.renfrowtech.kmp.log/LogLevel.TRACE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-k-m-p--log/com.renfrowtech.kmp.log/-log-level/-t-r-a-c-e/index.md
 $dokka.location:com.renfrowtech.kmp.log/LogLevel.WARNING///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}-k-m-p--log/com.renfrowtech.kmp.log/-log-level/-w-a-r-n-i-n-g/index.md
 $dokka.location:com.renfrowtech.kmp.log/LogLevel///PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-log-level/index.md
-$dokka.location:com.renfrowtech.kmp.log/LogLevel/getPrintName/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-log-level/get-print-name.md
-$dokka.location:com.renfrowtech.kmp.log/LogLevel/getSeverity/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-log-level/get-severity.md
+$dokka.location:com.renfrowtech.kmp.log/LogLevel/printName/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-log-level/print-name.md
+$dokka.location:com.renfrowtech.kmp.log/LogLevel/severity/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-log-level/severity.md
 $dokka.location:com.renfrowtech.kmp.log/LogLevel/valueOf/#kotlin.String/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-log-level/value-of.md
 $dokka.location:com.renfrowtech.kmp.log/LogLevel/values/#/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-log-level/values.md
 $dokka.location:com.renfrowtech.kmp.log/Logger.Companion///PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-logger/-companion/index.md
@@ -82,6 +82,7 @@ $dokka.location:com.renfrowtech.kmp.log/Logger/withData/#kotlin.Array[kotlin.Pai
 $dokka.location:com.renfrowtech.kmp.log/Logger/withData/#kotlin.collections.Map[kotlin.String,kotlin.Any?]/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-logger/with-data.md
 $dokka.location:com.renfrowtech.kmp.log/Logger/withException/#kotlin.Throwable/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-logger/with-exception.md
 $dokka.location:com.renfrowtech.kmp.log/Logger/withTag/#kotlin.String?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-logger/with-tag.md
+$dokka.location:com.renfrowtech.kmp.log/LoggerDelegate.Companion///PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-logger-delegate/-companion/index.md
 $dokka.location:com.renfrowtech.kmp.log/LoggerDelegate///PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-logger-delegate/index.md
 $dokka.location:com.renfrowtech.kmp.log/LoggerDelegate/LoggerDelegate/#kotlin.String?/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-logger-delegate/-logger-delegate.md
 $dokka.location:com.renfrowtech.kmp.log/LoggerDelegate/getValue/#TypeParam(bounds=[kotlin.Any])#kotlin.reflect.KProperty[*]/PointingToDeclaration/-k-m-p--log/com.renfrowtech.kmp.log/-logger-delegate/get-value.md

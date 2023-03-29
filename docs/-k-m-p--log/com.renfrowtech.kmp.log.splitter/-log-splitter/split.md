@@ -4,13 +4,13 @@
 # split
 
 [common]\
-
-public [List](https://developer.android.com/reference/kotlin/java/util/List.html)
-&lt;[String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-&gt;[split](split.md)([String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-message, [Integer](https://developer.android.com/reference/kotlin/java/lang/Integer.html)
-maxLogLineBytes, [Boolean](https://developer.android.com/reference/kotlin/java/lang/Boolean.html)
-splitNewLines)
+open fun [split](split.md)(
+message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html),
+maxLogLineBytes: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) =
+maxLogLineBytesDefault,
+splitNewLines: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) =
+true): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)
+&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)&gt;
 
 Splits log message into multiple messages
 
@@ -23,5 +23,5 @@ common
 | | |
 |---|---|
 | message | - Original message |
-| maxLogLineBytes | - Maximum log characters. Defaults to maxLogLineBytesDefault |
+| maxLogLineBytes | - Maximum log characters. Defaults to [maxLogLineBytesDefault](max-log-line-bytes-default.md) |
 | splitNewLines | - If true, splits at '\n' as well as at character count. Defaults to true |

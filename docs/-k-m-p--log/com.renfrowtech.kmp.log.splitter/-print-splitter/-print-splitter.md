@@ -4,5 +4,4 @@
 # PrintSplitter
 
 [ios]\
-
-public [PrintSplitter](index.md)[PrintSplitter](-print-splitter.md)()
+constructor()

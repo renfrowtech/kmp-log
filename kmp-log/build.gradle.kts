@@ -146,5 +146,5 @@ tasks.withType<org.jetbrains.dokka.gradle.DokkaTask>().configureEach {
 
 dependencies {
     dokkaGfmPlugin("org.jetbrains.dokka:versioning-plugin:1.8.10")
-    dokkaGfmPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.8.10")
+    //dokkaGfmPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.8.10")
 }

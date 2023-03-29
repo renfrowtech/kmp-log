@@ -4,6 +4,4 @@
 # clearStrategies
 
 [common]\
-
-public
-final [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)[clearStrategies](clear-strategies.md)()
+fun [clearStrategies](clear-strategies.md)()

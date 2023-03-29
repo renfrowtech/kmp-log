@@ -4,10 +4,8 @@
 # valueOf
 
 [common]\
-
-public
-final [LogLevel](index.md)[valueOf](value-of.md)([String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-value)
+fun [valueOf](value-of.md)(
+value: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [LogLevel](index.md)
 
 Returns the enum constant of this type with the specified name. The string must match exactly an
 identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not

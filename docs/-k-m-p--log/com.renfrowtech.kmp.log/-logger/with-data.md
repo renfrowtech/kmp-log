@@ -4,16 +4,17 @@
 # withData
 
 [common]\
+abstract fun [withData](with-data.md)(vararg
+data: [Pair](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)
+&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+, [Any](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)
+?&gt;): [Logger](index.md)
 
-public
-abstract [Logger](index.md)[withData](with-data.md)([Pair](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)
-&lt;[String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-, [Object](https://developer.android.com/reference/kotlin/java/lang/Object.html)&gt;data)
-
-public
-abstract [Logger](index.md)[withData](with-data.md)([Map](https://developer.android.com/reference/kotlin/java/util/Map.html)
-&lt;[String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-, [Object](https://developer.android.com/reference/kotlin/java/lang/Object.html)&gt;data)
+abstract fun [withData](with-data.md)(
+data: [Map](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)
+&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+, [Any](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)
+?&gt;): [Logger](index.md)
 
 Returns a new Logger instance with the associated data. Depending on the strategy this data may be
 logged with the message ormight be submitted as ancillary data to help with aggregations.

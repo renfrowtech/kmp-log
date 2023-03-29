@@ -4,7 +4,5 @@
 # LoggerDelegate
 
 [common]\
-
-public [LoggerDelegate](index.md)&lt;[T](index.md)
-&gt;[LoggerDelegate](-logger-delegate.md)([String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-tag)
+constructor(tag: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? =
+null)

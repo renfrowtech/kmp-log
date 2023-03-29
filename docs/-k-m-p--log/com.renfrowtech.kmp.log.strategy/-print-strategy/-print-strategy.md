@@ -4,6 +4,4 @@
 # PrintStrategy
 
 [ios]\
-
-public [PrintStrategy](index.md)[PrintStrategy](-print-strategy.md)(LogLevelminLogLevel,
-LogSplitterlogSplitter)
+constructor(minLogLevel: LogLevel = LogLevel.INFO, logSplitter: LogSplitter = PrintSplitter())

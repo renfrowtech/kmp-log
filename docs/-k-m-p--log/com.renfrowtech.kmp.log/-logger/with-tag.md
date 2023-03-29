@@ -4,9 +4,8 @@
 # withTag
 
 [common]\
-
-public
-abstract [Logger](index.md)[withTag](with-tag.md)([String](https://developer.android.com/reference/kotlin/java/lang/String.html)
-tag)
+abstract fun [withTag](with-tag.md)(
+tag: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+?): [Logger](index.md)
 
 Returns a new Logger instance

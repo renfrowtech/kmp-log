@@ -4,5 +4,4 @@
 # LogcatSplitter
 
 [android]\
-
-public [LogcatSplitter](index.md)[LogcatSplitter](-logcat-splitter.md)()
+constructor()
