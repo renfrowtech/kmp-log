@@ -1,6 +1,6 @@
 # kmp-log
 
-![Maven Central](https://img.shields.io/maven-central/v/com.renfrowtech/kmp-log)
+![Maven Central](https://img.shields.io/maven-central/v/com.renfrowtech/kmp-log?color=white)
 [![Android API](https://img.shields.io/badge/Android%20API-21%2B-green.svg)](https://android-arsenal.com/api?level=23)
 [![Android](https://img.shields.io/badge/Android-Alpha-orange.svg?logo=android&logoColor=white&labelColor=brightgreen)]()
 [![iOS](https://img.shields.io/badge/iOS-Coming%20Soon-orange.svg?logo=apple&logoColor=white&labelColor=blue)]()
